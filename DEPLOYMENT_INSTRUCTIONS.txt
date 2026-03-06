@@ -1,0 +1,189 @@
+# 🚀 DEPLOYMENT INSTRUCTIONS FOR COMPANY PORTAL
+
+## Method 1: GitHub Pages (Recommended)
+
+### Quick Start - 5 Minutes Setup
+
+1. **Login to GitHub**
+   - Go to https://github.com
+   - Sign in with your account
+
+2. **Create New Repository**
+   - Click "+" icon (top right) → "New repository"
+   - Repository name: `company-portal`
+   - Description: "Midwest VG Solutions Company Portal"
+   - Select: ✅ Public
+   - Check: ✅ Add a README file
+   - Click: "Create repository"
+
+3. **Upload Files**
+   - Click "Add file" → "Upload files"
+   - Upload these files:
+     * index.html (the main portal file)
+     * README.md (documentation)
+   - Click "Commit changes"
+
+4. **Enable GitHub Pages**
+   - Click "Settings" tab
+   - Click "Pages" in left sidebar
+   - Under "Source": Select "main" branch
+   - Click "Save"
+   - Wait 2-3 minutes
+
+5. **Get Your Live URL**
+   - Your portal will be live at:
+   - `https://[your-github-username].github.io/company-portal/`
+   - Example: `https://midwestvgsolutions.github.io/company-portal/`
+
+6. **Test It**
+   - Visit the URL
+   - Try logging in with:
+     - Company: Kishan Inc.
+     - Password: vgsolutions2026
+
+### ✅ Done! Share the URL with companies.
+
+---
+
+## Method 2: Custom Domain (Optional)
+
+If you own a domain like `midwestvg.com`:
+
+1. **In GitHub Pages Settings:**
+   - Enter your custom domain (e.g., `portal.midwestvg.com`)
+   - Click "Save"
+
+2. **In Your Domain Registrar (GoDaddy, Namecheap, etc.):**
+   - Add a CNAME record:
+     - Name: `portal`
+     - Value: `[your-username].github.io`
+   - Save changes
+
+3. **Wait 24 hours** for DNS to propagate
+
+4. **Your portal will be at:** `https://portal.midwestvg.com`
+
+---
+
+## Method 3: Netlify (Alternative - Even Easier)
+
+1. **Go to:** https://www.netlify.com
+2. **Sign up** (free account)
+3. **Drag & drop** the `index.html` file
+4. **Done!** You get a URL like: `https://midwest-vg-portal.netlify.app`
+5. **Custom domain:** Can add your own domain in settings
+
+---
+
+## 📧 Email Template to Send Companies
+
+```
+Subject: Access Your Revenue Share Portal
+
+Dear [Company Name],
+
+We're pleased to announce your new online portal for accessing revenue share reports.
+
+🔗 Portal URL: https://[your-portal-url].github.io/company-portal/
+
+LOGIN CREDENTIALS:
+👤 Company: [Company Name]
+🔑 Password: vgsolutions2026
+
+FEATURES:
+✅ View financial summaries
+✅ Download revenue share reports
+✅ Access anytime from any device (phone, tablet, computer)
+✅ No app download needed - works in your browser
+
+SUPPORT:
+For password resets or questions, contact us at:
+📧 [your-email]
+📞 [your-phone]
+
+Best regards,
+Midwest VG Solutions Team
+```
+
+---
+
+## 🔐 Security Recommendations
+
+**For Production Use (When Ready):**
+
+1. **Backend Server Setup:**
+   - Host portal on a proper server
+   - Store passwords encrypted in database
+   - Use HTTPS (SSL certificate)
+
+2. **Enhanced Security:**
+   - Add two-factor authentication
+   - Password reset via email
+   - Activity logging
+   - Session timeouts
+
+3. **File Storage:**
+   - Store actual PDF files on server
+   - Secure download links
+   - Audit trail of downloads
+
+**I can help implement these when you're ready to upgrade!**
+
+---
+
+## 📱 How Companies Access (No App Needed)
+
+### On iPhone/iPad:
+1. Open Safari
+2. Visit portal URL
+3. Tap "Share" → "Add to Home Screen"
+4. Portal appears like an app icon!
+
+### On Android:
+1. Open Chrome
+2. Visit portal URL
+3. Tap menu → "Add to Home screen"
+4. Portal appears like an app icon!
+
+### On Computer:
+1. Open any browser
+2. Visit portal URL
+3. Bookmark it for easy access
+
+---
+
+## ✅ Checklist
+
+Before sharing with companies:
+
+- [ ] Portal is live and accessible
+- [ ] All 13 companies can log in
+- [ ] Test on mobile phone
+- [ ] Test on desktop computer
+- [ ] Test download links
+- [ ] Save the portal URL
+- [ ] Prepare email template
+- [ ] Send login credentials to companies
+
+---
+
+## 🆘 Troubleshooting
+
+**Portal not loading?**
+- Wait 5 minutes after enabling GitHub Pages
+- Clear browser cache
+- Try incognito/private mode
+
+**Login not working?**
+- Check password: `vgsolutions2026` (all lowercase)
+- Ensure company is selected from dropdown
+- Try different browser
+
+**Need help?**
+- GitHub Pages Guide: https://pages.github.com
+- Contact me for support
+
+---
+
+**Created:** March 2026
+**Version:** 1.0
